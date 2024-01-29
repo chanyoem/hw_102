@@ -28,9 +28,12 @@ body {
     padding-left: 50px
 }
 
-.screen p {
+.bio  {
     padding: 30px;
-    font-size: 20px;
+}
+
+.bio p {
+    padding-bottom: 10px;
 }
 
 .screen span {
@@ -61,7 +64,18 @@ body {
     display: flex;
 }
 
-.col {
+.col1 {
+    flex: 50%;
+}
+
+.col1 p {
+    text-align: center;
+    font-family: 'VT323';
+    font-size: 20px;
+    padding: 5px;
+}
+
+.col2 {
     flex: 50%;
 }
 
