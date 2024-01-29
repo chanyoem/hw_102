@@ -10,12 +10,14 @@ body {
 
 .screen {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     height: 400px;
-    width: 500px;
-    margin-left: 100px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
     margin-top: 50px;
-    /* margin-right: 100px; */
     background-color: #A3E4D7;
     border-radius: 15px;
 }
@@ -26,7 +28,29 @@ body {
     padding-left: 50px
 }
 
-.screen h2 {
-    font-family: 'VT323';
+.screen p {
     padding: 30px;
+    font-size: 20px;
 }
+
+.screen span {
+    font-family: 'VT323';
+    font-size: 40px;
+}
+
+.spacer {
+    padding: 10px;
+}
+
+.quote {
+    text-align: center;
+    font-family: 'VT323';
+    font-size: 30px;
+    color: #ABEBC6;
+    width: 50%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #0E6655;
+}
+
