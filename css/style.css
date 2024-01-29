@@ -42,15 +42,26 @@ body {
     padding: 10px;
 }
 
+.container {
+    width: 50%;
+    margin: auto;
+}
+
 .quote {
     text-align: center;
     font-family: 'VT323';
     font-size: 30px;
     color: #ABEBC6;
-    width: 50%;
-    margin: auto;
     border: 3px solid black;
     border-radius: 10px;
     background-color: #0E6655;
+}
+
+.row2 {
+    display: flex;
+}
+
+.col {
+    flex: 50%;
 }
 
