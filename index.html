@@ -72,8 +72,34 @@
                     <img src="media/images/triangle.png" alt="triangle button">
                     <img src="media/images/circle.png" alt="circle button">
                 </div>
+                <div class="button_row2">
+                    <button id="open-dialog">Press me!</button>
+                    <dialog id="my-dialog">
+                        <h2>My Important People!</h2>
+                        <ul>
+                            <li>Finn: best friend and roommate</li>
+                            <li>Jake: best friend and roommate</li>
+                            <li>Moe: my creator</li>
+                            <li>Neptr: my adopted sibling who copies me</li>
+                        </ul>
+                        <button id="close-dialog">Close</button>
+                    </dialog>
+                </div>
             </div>
         </div>
     </div>
+    <script>
+        const openButton = document.getElementById('open-dialog');
+        const dialog = document.getElementById('my-dialog');
+        const closeButton = document.getElementById('close-dialog');
+  
+        openButton.addEventListener('click', () => {
+           dialog.showModal();
+        });
+  
+        closeButton.addEventListener('click', () => {
+           dialog.close();
+        });
+     </script>
 </body>
 </html>
