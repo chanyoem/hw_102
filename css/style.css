@@ -66,6 +66,10 @@ body {
 
 .col1 {
     flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .col1 p {
@@ -75,7 +79,15 @@ body {
     padding: 5px;
 }
 
+.col1 img {
+    width: 350px;
+}
+
 .col2 {
     flex: 50%;
+}
+
+.button_row1 img{
+    width: 140px;
 }
 
